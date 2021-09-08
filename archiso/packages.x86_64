@@ -224,10 +224,7 @@ brave-bin
 chntpw
 cinnamon
 conky
-<<<<<<< HEAD
 edk2-ovmf
-=======
->>>>>>> 1acb37ded34cfcf24393b0b5c665fba43b81f2b8
 exfat-utils
 filezilla
 firefox-esr-bin
