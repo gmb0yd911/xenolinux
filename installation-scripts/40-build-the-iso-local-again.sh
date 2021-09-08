@@ -37,7 +37,7 @@ echo
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 58-1"
 	buildFolder=$HOME"/alci-build"
-	outFolder=$HOME"/Alci-Iso-Zen-Out"
+	outFolder=$HOME"/Xen-Iso-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -284,7 +284,7 @@ echo
  	echo "Moving pkglist.x86_64.txt"
  	echo "########################"
 	rename=$(date +%Y-%m-%d)
- 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/archlinux-$rename-pkglist.txt
+ 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/xenolinux-$rename-pkglist.txt
 
 
 #echo
