@@ -6,7 +6,7 @@ b43-fwcutter
 base
 bind-tools
 brltty
-#broadcom-wl-dkms
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
@@ -138,13 +138,13 @@ alci-calamares
 #alci-calamares-config-lts
 #alci-calamares-config-pure
 alci-calamares-config-zen
-xterm
+#xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
+#sddm
 bash-completion
 grub
 os-prober
@@ -152,14 +152,15 @@ dex
 libxinerama
 make
 xorg-xkill
-xterm
+#xterm
 xorg-xrdb
 mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
 networkmanager
 network-manager-applet
-
+networkmanager-vpnc
+networkmanager-openconnect
 #######################################################
 ###                    EXTRAS                       ###
 #######################################################
@@ -167,7 +168,7 @@ network-manager-applet
 ##### xorg applications
 
 xorg-server
-xorg-apps
+xorg-xinit
 neofetch
 
 
@@ -178,22 +179,22 @@ neofetch
 #systemctl start vboxservice
 #to have fullscreen
 #virtualbox-guest-utils
+xf86-video-vmware
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
 
-#xf86-video-intel
-#xf86-video-amdgpu
-#xf86-video-nouveau
-
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 
 
 
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
-
+lightdm
+lightdm-slick-greeter
+lightdm-settings
 ##### sddm display manager
 
 #sddm
@@ -217,10 +218,75 @@ base-devel
 
 ##### want to have a desktop
 
-#test
-xfce4
-xfce4-goodies
+archiso
+audacious
+audacity
+balena-etcher
+brave-bin
+cinnamon
+conky
+exfat-utils
+filezilla
+firefox-esr-bin
+firefox-extension-bitwarden
+flameshot
+freerdp
+gimp
+gnome-disk-utility
+gnome-terminal
+google-chrome
+gparted
+gvfs
+gvfs-google
+gvfs-gphoto2
+gvfs-nfs
+gvfs-mtp
+gvfs-smb
+handbrake
+inkscape
+libarchive
+lsb-release
+lutris
+mate-themes
+meld
+microsoft-edge-beta-bin
+nemo
+#nemo-audio-tab 
+#nemo-compare
+nemo-fileroller
+nemo-image-converter
+#nemo-pdf-tools-git
+nemo-preview
+nemo-share
 neofetch
+nordvpn-bin
+ntfs3-dkms
+opera
+papirus-icon-theme
+pipewire
+pipewire-docs
+pipewire-alsa
+pipewire-pulse
+pipewire-media-session
+pipewire-jack
+qbittorrent
+qemu
+qt5-webkit
+remmina
+spotify
+teams
+terminator
+vi
+vkd3d
+vlc
+xdg-user-dirs
+xdg-user-dirs-gtk
+xed
+xviewer
+xviewer-plugins
+yay
+
+
 
 
 
@@ -234,8 +300,8 @@ neofetch
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
 #xcursor-sweet
@@ -256,9 +322,9 @@ neofetch
 #### want have a btrfs format
 #### use alci-calamares-config-btrfs 
 
-#timeshift
-#grub-btrfs
-#timeshift-autosnap
+timeshift
+grub-btrfs
+timeshift-autosnap
 
 linux-zen
 linux-zen-headers
