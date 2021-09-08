@@ -15,7 +15,7 @@ cryptsetup
 darkhttpd
 ddrescue
 dhclient
-dhcpcd
+#dhcpcd
 diffutils
 dmraid
 dnsmasq
@@ -25,7 +25,7 @@ edk2-shell
 efibootmgr
 espeakup
 ethtool
-exfatprogs
+#exfatprogs
 f2fs-tools
 fatresize
 fsarchiver
@@ -70,7 +70,7 @@ ndisc6
 nfs-utils
 nilfs-utils
 nmap
-ntfs-3g
+#ntfs-3g
 nvme-cli
 openconnect
 openssh
@@ -211,10 +211,7 @@ lightdm-settings
 base-devel
 
 ##### want to have linux-headers
-
 #linux-headers
-
-
 
 ##### want to have a desktop
 
@@ -222,9 +219,15 @@ archiso
 audacious
 audacity
 balena-etcher
+bitwarden
 brave-bin
+chntpw
 cinnamon
 conky
+<<<<<<< HEAD
+edk2-ovmf
+=======
+>>>>>>> 1acb37ded34cfcf24393b0b5c665fba43b81f2b8
 exfat-utils
 filezilla
 firefox-esr-bin
@@ -233,7 +236,6 @@ flameshot
 freerdp
 gimp
 gnome-disk-utility
-gnome-terminal
 google-chrome
 gparted
 gvfs
@@ -244,12 +246,14 @@ gvfs-mtp
 gvfs-smb
 handbrake
 inkscape
+kitty
 libarchive
 lsb-release
 lutris
 mate-themes
 meld
 microsoft-edge-beta-bin
+ncspot
 nemo
 #nemo-audio-tab 
 #nemo-compare
@@ -262,6 +266,7 @@ neofetch
 nordvpn-bin
 ntfs3-dkms
 opera
+pamac-aur
 papirus-icon-theme
 pipewire
 pipewire-docs
@@ -276,6 +281,7 @@ remmina
 spotify
 teams
 terminator
+#upd72020x-fw 
 vi
 vkd3d
 vlc
