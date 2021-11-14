@@ -225,6 +225,7 @@ brave-bin
 chntpw
 cinnamon
 conky
+cups
 edk2-ovmf
 exfat-utils
 filezilla
@@ -234,7 +235,9 @@ flameshot
 freerdp
 gdu-bin
 gimp
+gnome-2048
 gnome-disk-utility
+gnome-keyring
 google-chrome
 gparted
 gvfs
@@ -251,7 +254,7 @@ lsb-release
 lutris
 mate-themes
 meld
-microsoft-edge-beta-bin
+microsoft-edge-stable-bin
 ncspot
 nemo
 #nemo-audio-tab 
