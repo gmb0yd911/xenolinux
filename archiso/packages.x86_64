@@ -214,7 +214,7 @@ base-devel
 #linux-headers
 
 ##### want to have a desktop
-
+alacritty
 archiso
 audacious
 audacity
@@ -222,6 +222,7 @@ balena-etcher
 baobab
 bitwarden
 brave-bin
+cdrtools
 chntpw
 cinnamon
 conky
@@ -258,16 +259,15 @@ meld
 microsoft-edge-stable-bin
 ncspot
 nemo
-#nemo-audio-tab 
-#nemo-compare
 nemo-fileroller
 nemo-image-converter
-#nemo-pdf-tools-git
 nemo-preview
 nemo-share
 neofetch
 nordvpn-bin
 ntfs3-dkms
+obs-studio
+obs-v4l2sink
 opera
 pamac-aur
 papirus-icon-theme
@@ -276,11 +276,11 @@ pipewire-docs
 pipewire-alsa
 pipewire-pulse
 pipewire-media-session
-pipewire-jack
 qbittorrent
 qemu
 qt5-webkit
 remmina
+rpi-imager
 spotify
 teams
 terminator
@@ -288,6 +288,7 @@ terminator
 vi
 vkd3d
 vlc
+woeusb
 xdg-user-dirs
 xdg-user-dirs-gtk
 xed
