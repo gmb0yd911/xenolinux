@@ -33,7 +33,7 @@ echo
 	#arcolinuxVersion='v21.03.1'
 
 	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
-
+      sudo pacman -Syy
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 59-1"
 	buildFolder=$HOME"/xeno-build"
