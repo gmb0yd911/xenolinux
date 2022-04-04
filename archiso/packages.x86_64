@@ -10,7 +10,7 @@ broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
-crda
+#crda
 cryptsetup
 darkhttpd
 ddrescue
@@ -184,7 +184,7 @@ xf86-video-vmware
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
-
+#xf86-video-qxl
 nvidia-dkms
 nvidia-settings
 nvidia-utils
