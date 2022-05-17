@@ -96,7 +96,7 @@ sof-firmware
 squashfs-tools
 sudo
 syslinux
-systemd-resolvconf
+#systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
@@ -234,8 +234,9 @@ ebtables
 edk2-ovmf
 #exfat-utils
 filezilla
-firefox-esr-bin
-firefox-extension-bitwarden
+firefox-esr
+firefox-esr-i18n-en-gb
+#firefox-extension-bitwarden
 flameshot
 freerdp
 gdu-bin
@@ -263,6 +264,7 @@ lutris
 mate-themes
 meld
 microsoft-edge-stable-bin
+mysql-workbench
 ncspot
 nemo
 nemo-fileroller
@@ -290,6 +292,7 @@ remmina
 rpi-imager
 spotify
 teams
+teamviewer
 terminator
 #upd72020x-fw
 #vde2 
