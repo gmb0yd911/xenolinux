@@ -170,6 +170,7 @@ networkmanager
 network-manager-applet
 networkmanager-vpnc
 networkmanager-openconnect
+openresolv
 #######################################################
 ###                    EXTRAS                       ###
 #######################################################
