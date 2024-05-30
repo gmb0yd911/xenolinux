@@ -272,6 +272,7 @@ iptables
 libarchive
 libguestfs
 libvncserver
+live-media
 lsb-release
 lua
 lutris
