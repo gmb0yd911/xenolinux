@@ -115,7 +115,7 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
-wezterm-terminfo
+#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -288,11 +288,11 @@ nemo-preview
 nemo-share
 neofetch
 nordvpn-bin
-ntfs3-dkms
+#ntfs3-dkms
 obs-studio
 openbsd-netcat
 #opera
-pamac-aur
+#pamac-aur
 papirus-icon-theme
 pipewire
 pipewire-docs
@@ -317,7 +317,7 @@ qemu-hw-display-virtio-vga-gl
 qemu-ui-sdl
 qemu-ui-spice-core
 qemu-ui-spice-app
-qt5-webkit
+#qt5-webkit
 remmina
 rpi-imager
 spice
@@ -330,7 +330,7 @@ swtpm
 teams
 teamviewer
 terminator
-ungoogled-chromium
+#ungoogled-chromium
 ventoy-bin
 vi
 vim
