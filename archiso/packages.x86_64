@@ -140,7 +140,7 @@ zsh
 
 #alci-dwm
 #alci-dwm-nemesis
-alci-calamares
+#alci-calamares
 #alci-calamares-dev
 #alci-calamares-config
 #alci-calamares-config-btrfs
@@ -150,20 +150,21 @@ alci-calamares
 #alci-calamares-config-pure
 #alci-calamares-config-xanmod
 alci-calamares-config-zen
-xterm
+#xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
+lightdm-slick-greeter
+lightdm
 bash-completion
 os-prober
 dex
 libxinerama
 make
 xorg-xkill
-xterm
+#xterm
 xorg-xrdb
 mkinitcpio-openswap
 
@@ -179,7 +180,7 @@ network-manager-applet
 
 xorg-server
 xorg-apps
-neofetch
+#neofetch
 
 
 ##### Drivers for graphical cards
@@ -243,8 +244,8 @@ base-devel
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
 #colloid-cursors-git
@@ -265,9 +266,9 @@ base-devel
 #### want have a btrfs format
 #### use alci-calamares-config-btrfs 
 
-#timeshift
-#grub-btrfs
-#timeshift-autosnap
+timeshift
+grub-btrfs
+timeshift-autosnap
 
 linux-zen
 linux-zen-headers
