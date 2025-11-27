@@ -105,7 +105,7 @@ sof-firmware
 squashfs-tools
 sudo
 syslinux
-systemd-resolvconf
+#systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
@@ -156,9 +156,9 @@ alci-calamares-config-zen
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-lightdm-slick-greeter
-lightdm
+
 bash-completion
+grub
 os-prober
 dex
 libxinerama
@@ -171,7 +171,9 @@ mkinitcpio-openswap
 ##### you can also use nmtui from the terminal
 networkmanager
 network-manager-applet
-
+networkmanager-vpnc
+networkmanager-openconnect
+openresolv
 #######################################################
 ###                    EXTRAS                       ###
 #######################################################
@@ -179,8 +181,8 @@ network-manager-applet
 ##### xorg applications
 
 xorg-server
-xorg-apps
-#neofetch
+xorg-xinit
+
 
 
 ##### Drivers for graphical cards
@@ -190,22 +192,23 @@ xorg-apps
 #systemctl start vboxservice
 #to have fullscreen
 #virtualbox-guest-utils
-
-#xf86-video-intel
-#xf86-video-amdgpu
-#xf86-video-nouveau
-
+#xf86-video-vmware
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
+#xf86-video-qxl
 #nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 
 
 
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
-
+lightdm
+lightdm-slick-greeter
+lightdm-settings
 ##### sddm display manager
 
 #sddm
@@ -225,6 +228,130 @@ base-devel
 
 #linux-headers
 
+##### want to have a desktop
+archiso
+audacious
+audacity
+#balena-etcher
+baobab
+bitwarden
+brave-bin
+bridge-utils
+catch2
+cdrtools
+chntpw
+cinnamon
+cinnamon-translations
+cmake
+conky
+cups
+dnsmasq
+docbook-xsl
+docbook2x
+ebtables
+edk2-ovmf
+eom
+fastfetch
+filezilla
+firefox-esr
+firefox-esr-i18n-en-gb
+flameshot
+freerdp
+gimp
+git
+gnome-2048
+gnome-disk-utility
+gnome-keyring
+gnome-terminal
+google-chrome
+gparted
+gvfs
+gvfs-google
+gvfs-gphoto2
+gvfs-nfs
+gvfs-mtp
+gvfs-smb
+handbrake
+imlib2
+inkscape
+iptables
+libarchive
+libguestfs
+libvncserver
+live-media
+lsb-release
+lua
+lutris
+mate-themes
+meld
+microsoft-edge-stable-bin
+mysql-workbench
+ncspot
+nemo
+nemo-fileroller
+nemo-image-converter
+nemo-preview
+nemo-share
+nordvpn-bin
+#ntfs3-dkms
+obs-studio
+openbsd-netcat
+#opera
+#pamac-aur
+papirus-icon-theme
+pipewire
+pipewire-docs
+pipewire-alsa
+pipewire-pulse
+qbittorrent
+qemu-full
+qemu-audio-pa
+qemu-audio-pipewire
+qemu-audio-sdl
+qemu-audio-spice
+qemu-chardev-spice
+qemu-hw-usb-host
+qemu-hw-display-qxl
+qemu-hw-display-virtio-gpu-gl
+qemu-hw-display-virtio-gpu
+qemu-hw-display-virtio-gpu-pci-gl
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-vga-gl
+qemu-ui-sdl
+qemu-ui-spice-core
+qemu-ui-spice-app
+qemu-hw-usb-redirect
+qemu-hw-display-virtio-gpu-pci
+#qt5-webkit
+remmina
+rpi-imager
+spice
+spice-gtk
+#spice-guest-tools-windows 
+spice-protocol
+spice-vdagent
+swtpm
+#teams
+#teamviewer
+terminator
+#ungoogled-chromium
+ventoy-bin
+vim
+virt-manager
+virt-viewer
+vulkan-virtio
+vkd3d
+vlc
+wireplumber
+wireless_tools
+woeusb-ng
+xdg-desktop-portal-xapp
+xdg-user-dirs
+xdg-user-dirs-gtk
+xed
+xviewer
+xviewer-plugins
+yay
 
 
 ##### want to have a desktop
@@ -266,6 +393,7 @@ chaotic-keyring
 #### want have a btrfs format
 #### use alci-calamares-config-btrfs 
 
+
 timeshift
 grub-btrfs
 timeshift-autosnap
@@ -273,11 +401,11 @@ timeshift-autosnap
 linux-zen
 linux-zen-headers
 
-cinnamon
-nemo-fileroller
-cinnamon-translations
-gnome-terminal
-git
+
+
+
+
+
 
 #grub theme
 alci-grub-theme-git

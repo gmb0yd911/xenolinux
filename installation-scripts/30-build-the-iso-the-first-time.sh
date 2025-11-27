@@ -39,9 +39,9 @@ echo "################################################################## "
 echo
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 83-1"
-	buildFolder=$HOME"/alci-build"
-	outFolder=$HOME"/Alci-Iso-Zen-Out"
+	archisoRequiredVersion="archiso 71-1"
+	buildFolder=$HOME"/xeno-build"
+	outFolder=$HOME"/Xeno-Iso-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "

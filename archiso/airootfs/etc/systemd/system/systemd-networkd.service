@@ -1,0 +1,5 @@
+# This file is used to mask the systemd-networkd service.
+[Unit]
+Description=Masked systemd-networkd service
+ConditionPathExists=|!/etc/systemd/system/systemd-networkd.service.d
+SourcePath=/dev/null
