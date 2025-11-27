@@ -1,4 +1,4 @@
-# ALCI DEVELOPMENT/DESKTOP
+# ALCI ZEN
 
 # Arch Linux Calamares Installer or ALCI
 
@@ -8,7 +8,7 @@ Use the correct version of Archiso to build the iso.
 
 Download the content of the github with (use the terminal)
 
-`git clone https://github.com/arch-linux-calamares-installer/alci-iso-dev`
+`git clone https://github.com/arch-linux-calamares-installer/alci-iso-zen`
 
 # Pacman.conf in archiso folder
 
@@ -97,7 +97,7 @@ Use script 40 to use your current pacman cache - it will only download what is n
 
 You will find the iso in this folder:
 
- ~/Alci-Dev-Out
+ ~/Alci-Iso-Zen-Out
 
 Burn it with etcher or other tools and use it.
 
@@ -187,7 +187,7 @@ https://imgur.com/a/EvCN4pm
 
 # Tip
 
-Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip). Calamares will**not download anything**. 
+Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip). Calamares will **not download anything**. 
 
 The list you created in the packages.x86_64 file will be installed on the iso and on your future system.
 
@@ -225,3 +225,33 @@ Then connect to the wifi.
 Then we restart Calamares.
 
 `sudo calamares`
+
+---
+
+## 💛 A Grateful Farewell from the ArcoLinux Team
+
+After many years of building, sharing, and learning together, the **ArcoLinux project is winding down**.
+
+Although no new updates or packages will be released, we are proud of the knowledge, tools, and community that have grown around ArcoLinux.
+
+### What's Staying Online ✅
+
+- 🌐 **Websites** will remain accessible for several years
+- 🎥 **YouTube videos** will stay online and continue to serve as tutorials
+- 📦 **GitHub repositories** like this one will remain available as long as GitHub's free hosting allows
+
+### Keep Using and Updating Your System 🛠️
+
+ArcoLinux was always built on **Arch Linux**, which is a **rolling release**.  
+This means your system can still be installed and updated using standard Arch tools and knowledge.
+
+### Read More
+
+🔗 [A Farewell to the ArcoLinux University](https://www.arcolinux.info/a-farewell-to-the-arcolinux-university/)
+
+---
+
+**Thank you for being part of this journey.**  
+Your curiosity, passion, and support made ArcoLinux what it was.
+
+— *The ArcoLinux Team*

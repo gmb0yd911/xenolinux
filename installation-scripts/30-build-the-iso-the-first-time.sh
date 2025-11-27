@@ -15,6 +15,20 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+
+if 	lsblk -f | grep btrfs > /dev/null 2>&1 ; then
+	echo
+	echo "################################################################## "
+	tput setaf 3
+	echo "Message"
+    echo "This script has been known to cause issues on a Btrfs filesystem"
+    echo "Make backups before continuing"
+    echo "Continu at your own risk"
+    tput sgr0
+    echo
+    read -p "Press Enter to continue... CTRL + C to stop"
+fi
+
 echo
 echo "################################################################## "
 tput setaf 2
@@ -25,9 +39,9 @@ echo "################################################################## "
 echo
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 71-1"
-	buildFolder=$HOME"/xeno-build"
-	outFolder=$HOME"/Xeno-Iso-Out"
+	archisoRequiredVersion="archiso 83-1"
+	buildFolder=$HOME"/alci-build"
+	outFolder=$HOME"/Alci-Iso-Zen-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
