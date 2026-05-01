@@ -325,13 +325,12 @@ spice-gtk
 #spice-guest-tools-windows 
 spice-protocol
 spice-vdagent
-spotify
+#spotify
 swtpm
-teams
-teamviewer
+#teamviewer
 terminator
 #ungoogled-chromium
-ventoy-bin
+#ventoy-bin
 vi
 vim
 virt-manager
@@ -341,14 +340,14 @@ vkd3d
 vlc
 wireplumber
 wireless_tools
-woeusb-ng
+#woeusb-ng
 xdg-desktop-portal-xapp
 xdg-user-dirs
 xdg-user-dirs-gtk
 xed
 xviewer
-xviewer-plugins
-yay
+#xviewer-plugins
+#yay
 
 
 
@@ -389,7 +388,7 @@ yay
 alci-grub-theme-git
 timeshift
 grub-btrfs
-timeshift-autosnap
+#timeshift-autosnap
 
 linux-zen
 linux-zen-headers
