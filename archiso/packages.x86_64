@@ -182,7 +182,7 @@ openresolv
 
 xorg-server
 xorg-xinit
-neofetch
+
 
 
 ##### Drivers for graphical cards
@@ -192,7 +192,7 @@ neofetch
 #systemctl start vboxservice
 #to have fullscreen
 #virtualbox-guest-utils
-xf86-video-vmware
+#xf86-video-vmware
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
@@ -207,7 +207,7 @@ nvidia-utils
 
 lightdm
 lightdm-slick-greeter
-lightdm-settings
+#lightdm-settings
 ##### sddm display manager
 
 #sddm
@@ -234,8 +234,8 @@ audacity
 #balena-etcher
 baobab
 bitwarden
-brave-bin
-bridge-utils
+#brave-bin
+#bridge-utils
 catch2
 cdrtools
 chntpw
@@ -249,9 +249,11 @@ docbook2x
 ebtables
 edk2-ovmf
 eom
+fastfetch
 filezilla
-firefox-esr
-firefox-esr-i18n-en-gb
+firefox-i18n-en-gb
+#firefox-esr
+#firefox-esr-i18n-en-gb
 flameshot
 freerdp
 gimp
@@ -260,7 +262,7 @@ gnome-2048
 gnome-disk-utility
 gnome-keyring
 gnome-terminal
-google-chrome
+#google-chrome
 gparted
 gvfs
 gvfs-gphoto2
@@ -280,16 +282,15 @@ lua
 lutris
 mate-themes
 meld
-microsoft-edge-stable-bin
+#microsoft-edge-stable-bin
 mysql-workbench
 ncspot
 nemo
 nemo-fileroller
 nemo-image-converter
-nemo-preview
+#nemo-preview
 nemo-share
-neofetch
-nordvpn-bin
+#nordvpn-bin
 #ntfs3-dkms
 obs-studio
 openbsd-netcat
@@ -299,7 +300,7 @@ pipewire-docs
 pipewire-alsa
 pipewire-pulse
 qbittorrent
-qemu
+qemu-full
 qemu-audio-pa
 qemu-audio-pipewire
 qemu-audio-sdl
