@@ -140,7 +140,8 @@ zsh
 
 #alci-dwm
 #alci-dwm-nemesis
-alci-calamares=3.3.15.250221-01
+calamares
+kcrash
 #alci-calamares-dev
 #alci-calamares-config
 #alci-calamares-config-btrfs

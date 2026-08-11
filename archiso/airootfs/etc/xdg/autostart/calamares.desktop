@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Arch Linux
+Comment=Install the operating system to disk
+Exec=pkexec calamares
+Icon=calamares
+Terminal=false
+StartupNotify=true
+Categories=Qt;System;
