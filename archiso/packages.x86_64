@@ -130,7 +130,7 @@ zsh
 
 # everything above comes from archiso releng folder
 #######################################################
-###                    ALCI                         ###
+###                 XENO LINUX                      ###
 #######################################################
 
 #######################################################
@@ -138,19 +138,19 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-#alci-dwm
-#alci-dwm-nemesis
+#xeno-dwm
+#xeno-dwm-nemesis
 calamares
 kcrash
-#alci-calamares-dev
-#alci-calamares-config
-#alci-calamares-config-btrfs
-#alci-calamares-config-dev
-#alci-calamares-config-hardened
-#alci-calamares-config-lts
-#alci-calamares-config-pure
-#alci-calamares-config-xanmod
-alci-calamares-config-zen=24.12-01
+#xeno-calamares-dev
+#xeno-calamares-config
+#xeno-calamares-config-btrfs
+#xeno-calamares-config-dev
+#xeno-calamares-config-hardened
+#xeno-calamares-config-lts
+#xeno-calamares-config-pure
+#xeno-calamares-config-xanmod
+#alci-calamares-config-zen=24.12-01
 #xterm
 
 #######################################################
@@ -212,7 +212,7 @@ lightdm-slick-greeter
 ##### sddm display manager
 
 #sddm
-#alci-sddm-plasma-archpaint
+#xeno-sddm-plasma-archpaint
 
 ##### gdm display manager
 
@@ -386,9 +386,9 @@ xviewer
 
 
 #### want have a btrfs format
-#### use alci-calamares-config-btrfs 
+#### use xeno-calamares-config-btrfs 
 
-alci-grub-theme-git
+#alci-grub-theme-git
 timeshift
 grub-btrfs
 #timeshift-autosnap

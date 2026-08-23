@@ -1,0 +1,13 @@
+#!/bin/bash
+# Check and enable VM guest services if running inside a Virtual Machine
+
+if systemd-detect-virt -q; then
+    if pacman -Qs virtualbox-guest-utils > /dev/null 2>&1; then
+        systemctl enable vboxservice.service 2>/dev/null || true
+    fi
+    if pacman -Qs qemu-guest-agent > /dev/null 2>&1; then
+        systemctl enable qemu-guest-agent.service 2>/dev/null || true
+    fi
+fi
+
+exit 0

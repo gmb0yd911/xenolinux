@@ -24,6 +24,12 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/etc/polkit-1/rules.d"]="0:0:750"
   ["/etc/sudoers.d"]="0:0:750"
+  ["/usr/local/bin/xeno-make-a-pure-arch"]="0:0:755"
+  ["/usr/local/bin/xeno-displaymanager-check"]="0:0:755"
+  ["/usr/local/bin/xeno-virtual-machine-check"]="0:0:755"
+  ["/usr/local/bin/xeno-kernel-preset.sh"]="0:0:755"
+  ["/usr/local/bin/xeno-final-boot.sh"]="0:0:755"
   ["/usr/local/bin/alci-make-a-pure-arch"]="0:0:755"
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
+  ["/usr/local/bin/alci-virtual-machine-check"]="0:0:755"
 )

@@ -1,6 +1,6 @@
-# ALCI DEVELOPMENT/DESKTOP
+# XENO LINUX DEVELOPMENT/DESKTOP
 
-# Arch Linux Calamares Installer or ALCI
+# Xeno Linux Calamares Installer or Xeno Linux
 
 Use the correct version of Archiso to build the iso.
 
@@ -8,7 +8,7 @@ Use the correct version of Archiso to build the iso.
 
 Download the content of the github with (use the terminal)
 
-`git clone https://github.com/arch-linux-calamares-installer/alci-iso-dev`
+`git clone https://github.com/arch-linux-calamares-installer/xeno-iso-dev`
 
 # Pacman.conf in archiso folder
 
@@ -80,9 +80,9 @@ Install these two packages on your system if you want to include **ArcoLinux pac
 
 `sudo pacman -S arcolinux-mirrorlist-git arcolinux-keyring`
 
-If not on ArcoLinux you can download the package from the alci_repo with sudo pacman -U.
+If not on ArcoLinux you can download the package from the xeno_repo with sudo pacman -U.
 
-https://github.com/arch-linux-calamares-installer/alci_repo
+https://github.com/arch-linux-calamares-installer/xeno_repo
 
 
 After editing the necessary files (pacman.conf and packages.x86_64) you can start building.
@@ -97,7 +97,7 @@ Use script 40 to use your current pacman cache - it will only download what is n
 
 You will find the iso in this folder:
 
- ~/Alci-Dev-Out
+ ~/Xeno-Dev-Out
 
 Burn it with etcher or other tools and use it.
 
@@ -173,7 +173,7 @@ and ensure they are all gone.
 
 # Tip
 
-When testing out the ALCI in virtualbox, you can use the alias 
+When testing out Xeno Linux in virtualbox, you can use the alias 
 evb to enable and start virtualbox. As a result you can use your full resolution.
 
 
@@ -187,7 +187,7 @@ https://imgur.com/a/EvCN4pm
 
 # Tip
 
-Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip). Calamares will**not download anything**. 
+Internet is NOT required for Xeno Linux. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip). Calamares will**not download anything**. 
 
 The list you created in the packages.x86_64 file will be installed on the iso and on your future system.
 

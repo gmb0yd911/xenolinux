@@ -9,7 +9,7 @@
 # Website	:	https://www.arcolinuxb.com
 # Website	:	https://www.arcolinuxiso.com
 # Website	:	https://www.arcolinuxforum.com
-# Website	:	https://www.alci.online
+# Website	:	https://www.xenolinux.online
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -25,7 +25,7 @@ echo "################################################################## "
 echo
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 71-1"
+	archisoRequiredVersion=$(pacman -Q archiso)
 	buildFolder=$HOME"/xeno-build"
 	outFolder=$HOME"/Xeno-Iso-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
