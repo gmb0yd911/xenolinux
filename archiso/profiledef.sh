@@ -29,7 +29,4 @@ file_permissions=(
   ["/usr/local/bin/xeno-virtual-machine-check"]="0:0:755"
   ["/usr/local/bin/xeno-kernel-preset.sh"]="0:0:755"
   ["/usr/local/bin/xeno-final-boot.sh"]="0:0:755"
-  ["/usr/local/bin/alci-make-a-pure-arch"]="0:0:755"
-  ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
-  ["/usr/local/bin/alci-virtual-machine-check"]="0:0:755"
 )
