@@ -25,6 +25,8 @@ echo "################################################################## "
 echo
 
 	# setting of the general parameters
+	script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+	repo_dir="$(cd -- "$script_dir/.." && pwd)"
 	archisoRequiredVersion=$(pacman -Q archiso)
 	buildFolder=$HOME"/xeno-build"
 	outFolder=$HOME"/Xeno-Iso-Out"
@@ -132,12 +134,23 @@ echo "################################################################## "
 echo
 
 	echo "Deleting the build folder if one exists - takes some time"
-	[ -d $buildFolder ] && sudo rm -rf $buildFolder
+	if [ -d "$buildFolder" ]; then
+		# Recursively unmount all chroot and virtual filesystem mounts
+		sudo umount -R "$buildFolder" 2>/dev/null || true
+		# Safety guard: refuse to delete if any mount remains attached to protect host /dev
+		if findmnt -R "$buildFolder" >/dev/null 2>&1; then
+			echo "Error: Mounts are still active under $buildFolder. Aborting rm -rf to protect host filesystem!" >&2
+			exit 1
+		fi
+		sudo rm -rf "$buildFolder"
+	fi
 	echo
 	echo "Copying the Archiso folder to build work"
 	echo
-	mkdir $buildFolder
-	cp -r ../archiso $buildFolder/archiso
+	mkdir -p "$buildFolder"
+	cp -r "$repo_dir/archiso" "$buildFolder/archiso"
+	# Configure local repository path dynamically to current repository location
+	sed -i "s|file://.*xeno_local_repo/\$arch|file://$repo_dir/xeno_local_repo/\$arch|" "$buildFolder/archiso/pacman.conf"
 
 # echo
 # echo "################################################################## "

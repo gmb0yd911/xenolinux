@@ -1,0 +1,15 @@
+[org.cinnamon.desktop.background]
+picture-uri='file:///usr/share/backgrounds/xenolinux/wallpaper.png'
+picture-uri-dark='file:///usr/share/backgrounds/xenolinux/wallpaper.png'
+picture-options='zoom'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/xenolinux/wallpaper.png'
+picture-uri-dark='file:///usr/share/backgrounds/xenolinux/wallpaper.png'
+picture-options='zoom'
+
+[org.cinnamon.desktop.wm.preferences]
+theme='BlackMATE'
+
+[org.cinnamon.theme]
+name='BlackMATE'
